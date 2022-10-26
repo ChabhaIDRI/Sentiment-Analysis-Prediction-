@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 model=pickle.load(open('model.pkl','rb'))
-victor=pickle.load(open('victor.pkl','rb'))
+#victor=pickle.load(open('victor.pkl','rb'))
 
 @app.route('/')
 def hello_world():
